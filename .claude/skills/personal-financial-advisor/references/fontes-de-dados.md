@@ -6,10 +6,28 @@ Acesse com as tools `mcp__Google_Drive__read_file_content` (passando o `fileId`)
 
 ### ORCAMENTO CASA — planilha principal do orçamento familiar
 - **fileId:** `1ueYEZ4HCoD9ZWjlbOz9YDclajvOAFnWQ34UcH0n1BJw`
-- Abas conhecidas: `__configs` (metadados do app Semear / formulário de gastos), `GASTOS` (lançamentos parcela a parcela).
-- Estrutura de GASTOS: TITULAR DO GASTO, GASTO, VALOR TOTAL, VALOR TOTAL PARCELA, % PARCELA CONJUGE, VALOR PARCELA CONTA, PARCELA Nº, TOTAL PARCELAS, MÊS, ANO, DATA REGISTRO, PAGADOR.
-- Cada linha é UMA parcela de UM gasto em UM mês — para totais mensais, agrupe por MÊS/ANO; para comprometimento futuro, some parcelas com competência à frente.
-- `% PARCELA CONJUGE` define a divisão Rafael/Marcela; `VALOR PARCELA CONTA` é o que efetivamente sai da conta indicada.
+- **Como ler:** o export markdown (`read_file_content`) achata as abas e embaralha tabelas. Prefira `download_file_content` com exportMimeType xlsx e leia com openpyxl (`data_only=True`), aba por aba.
+- Abas: `__configs`, `GASTOS`, `GASTOS_FIXOS`, `FINANÇAS NOVO` (principal), `BANCO`, `BKP FINANÇAS NOVO`.
+
+**Aba `FINANÇAS NOVO`** (a fonte central de custo de vida — indicada pelo Rafael em 20/07/2026):
+- Bloco anual (linhas 2–31): col B = categoria de gasto, col C = total anual, cols D–O = meses 1–12 do ano corrente. Linha 3 = total geral.
+- Bloco de fechamento mensal (linhas ~34–80): rateio do mês vigente entre Rafael e Marcela (percentuais na linha 36, hoje 52%/48%), fechamento de caixa individual nas linhas ~71–80 (Receita → custo casa → reembolsos/cartão → saldo do mês).
+- Categorias grandes: FINANCIAMENTO VALOR, ESCOLA FILHOS, IPTU, SUPERMERCADO, DIARISTA, condomínio, contas de consumo, pets, MARINA CLUBE etc.
+
+**Aba `BANCO`** (posição financeira e operacional de pagamentos):
+- B1:H seção INVEST NUBANK (CDB 120%, valor atualizado; total em L3/L4 "Prova Real/Soma").
+- B30–C33: receitas — salário bruto Rafael, salário bruto + funções Marcela; B44–D46: receita líquida, despesas e saldo de cada um.
+- B31: VALOR REUNIDO ESCOLA MALU (fundo carimbado para escola).
+- Colunas R–Y: fluxo de pagamentos do mês (origem, destino, pagador, status, data, valor).
+- Colunas AG–AJ: extrato de lançamentos avulsos.
+
+**Aba `GASTOS`** (lançamentos do app Semear, parcela a parcela):
+- TITULAR DO GASTO, GASTO, VALOR TOTAL, VALOR TOTAL PARCELA, % PARCELA CONJUGE, VALOR PARCELA CONTA, PARCELA Nº, TOTAL PARCELAS, MÊS, ANO, DATA REGISTRO, PAGADOR.
+- Cada linha é UMA parcela de UM gasto em UM mês — para comprometimento futuro, some parcelas com competência à frente.
+
+### Investimentos fora de planilha (informados pelo Rafael em 20/07/2026)
+- XP (Rafael): R$ 78.400 — composição a detalhar.
+- Com Marcela: ~R$ 40.000 — onde está aplicado a confirmar.
 
 ### SEMEAR CASA - Dados — base normalizada (novo modelo)
 - **fileId:** `1da5ovLYVA457M4cJsi1uJJOS2MXtxBJli5Aqw8PP_LE`
