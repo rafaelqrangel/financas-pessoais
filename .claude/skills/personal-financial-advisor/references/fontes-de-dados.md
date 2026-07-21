@@ -49,9 +49,15 @@ Acesse com as tools `mcp__Google_Drive__read_file_content` (passando o `fileId`)
 
 ## 2. NotebookLM "Personal Financial Advisor" (base técnica)
 
-O NotebookLM não tem API acessível daqui. A ponte é operada pelo Rafael, com o advisor no comando do que perguntar:
+O NotebookLM não tem API. Há DOIS caminhos de ponte — escolha pelo ambiente da sessão:
 
-**Protocolo de consulta:**
+**Caminho A — automação via skill `notebooklm` (preferido quando disponível):**
+- A skill `notebooklm` (em `.claude/skills/notebooklm/`) controla o NotebookLM por automação de navegador usando a extensão Claude in Chrome (tools `tabs_context_mcp`, `computer`, `navigate` etc.).
+- Só funciona quando a sessão roda com o Chrome do Rafael conectado (Claude Code local / Cowork desktop com a extensão instalada e logada no Google). Sessões remotas/cloud NÃO têm essas tools — teste a disponibilidade antes de prometer.
+- Uso típico: abrir o notebook "Personal Financial Advisor", perguntar no chat dele (respostas citam as fontes), adicionar análises deste repo como fonte ("Copied text"), gerar Studio outputs (briefing, audio overview).
+- Tudo que for durável trazido de lá → gravar em `knowledge/notebooklm/`.
+
+**Caminho B — ponte manual (fallback universal):**
 1. Quando um tema exigir fundamento técnico profundo (tributação específica, produto complexo, regra de previdência, conteúdo dos livros/fontes que Rafael subiu lá), formule 1–3 perguntas PRONTAS PARA COLAR, específicas e fechadas — não "me fale sobre X", e sim "segundo as fontes, qual a diferença de tributação entre A e B para prazo de N anos?".
 2. Entregue as perguntas em bloco de código para facilitar o copiar/colar.
 3. Quando Rafael trouxer a resposta, integre-a à análise citando que a base veio do NotebookLM e grave o que for durável em `knowledge/notebooklm/` (um arquivo .md por tema).

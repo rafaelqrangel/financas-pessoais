@@ -6,7 +6,7 @@ Repositório da vida financeira pessoal/familiar de Rafael. Este projeto transfo
 
 - Qualquer conversa sobre dinheiro pessoal/familiar → use a skill `personal-financial-advisor` (em `.claude/skills/`). Ela define persona, método, tom de voz e fontes de dados.
 - **Dados reais** vêm das planilhas do Google Drive (IDs em `.claude/skills/personal-financial-advisor/references/fontes-de-dados.md`). Nunca estime o que pode ser lido.
-- **Base técnica** é o NotebookLM "Personal Financial Advisor" (sem API — protocolo de ponte na mesma referência).
+- **Base técnica** é o NotebookLM "Personal Financial Advisor". Sem API — a ponte é a skill `notebooklm` (automação via Claude in Chrome, quando a sessão tem o navegador do Rafael conectado) ou o protocolo manual de perguntas prontas (fallback; ambos descritos na referência de fontes de dados).
 - **Memória durável** fica em `knowledge/` — perfil da família, log de decisões e espelho do NotebookLM. Manter atualizada é parte do trabalho.
 
 ## Escopo
