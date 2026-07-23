@@ -28,14 +28,25 @@
 - Marcela: receita 22.700 − custo casa 15.868 − cartão 5.000 = **saldo +R$ 1.832/mês**
 - Sobra real do casal: **~R$ 1.163/mês (2,4% da renda líquida)**
 
-## Patrimônio financeiro (20/07/2026)
+## Patrimônio financeiro (atualizado 23/07/2026)
 
-- XP (Rafael): R$ 78.400 (composição a detalhar)
+- XP (Rafael), total R$ 78.165: fundos R$ 40.666 (R$ 23.653 num único fundo; R$ 6.679 SEM liquidez), debêntures+CRA R$ 22.318, FII R$ 13.119, renda variável R$ 2.062 (US$ 407 em dólar)
 - Com Marcela: ~R$ 40.000 (alocação a confirmar)
 - Nubank invest: R$ 17.762 (inclui CDB 120% CDI R$ 10.006, caixinha, IPVA/reserva)
-- **Total livre: ~R$ 136.200** (≈ 4,1 meses do custo de vida)
+- **Total livre: ~R$ 136.000** (≈ 4,1 meses do custo de vida)
 - Fundo carimbado escola Malu: R$ 57.437 (não conta como reserva livre)
-- Imóvel próprio em financiamento (saldo devedor e taxa a confirmar)
+
+## Imóvel e financiamento (extrato contrato 9241931, pago até parcela 16 — jul/2026)
+
+- Imóvel: R$ 3.205.000 (Rua Calheiros Gomes 491, RJ) | financiado R$ 1.400.000 em 28/03/2025
+- **Saldo devedor: R$ 1.369.674** | prazo 420 meses (16/420 pagas), SAC, TR + 10,02% a.a. nominal (efetiva 10,49%, CET 11,32%)
+- Parcela jul/2026: R$ 15.327 — sendo **juros+seguros ~R$ 11.936** e amortização só R$ 3.390
+- Patrimônio imobiliário líquido: ~R$ 1,84 milhão (valor imóvel − saldo devedor)
+
+## Dívidas com juros (23/07/2026)
+
+- **Empréstimo pessoal Itaú (dentro do cartão): R$ 12.500 a 2,47% a.m. (34% a.a.), 60 parcelas de ~R$ 402.** Levado ao fim custa R$ 24.099 — R$ 11.599 só de juros. PRIORIDADE Nº 1 DE QUITAÇÃO.
+- Financiamento imobiliário (acima) — taxa civilizada, não é sangria; candidato a amortização extra futura.
 
 ## Objetivos declarados
 
