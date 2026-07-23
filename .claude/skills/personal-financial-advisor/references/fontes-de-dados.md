@@ -49,6 +49,9 @@ Acesse com as tools `mcp__Google_Drive__read_file_content` (passando o `fileId`)
 
 ## 2. NotebookLM "Personal Financial Advisor" (base técnica)
 
+**Caminho principal — leitura direta das fontes via Drive (sem NotebookLM):**
+As obras-fonte do notebook estão na pasta do Drive `Livros/NotebookLM-Financial-Advisor` (folderId `1dBgkAi7x4KCH975r22USaugpuLwVpejr`). Índice completo com fileIds em `knowledge/notebooklm/fontes.md`. Para fundamento técnico, leia o livro direto — funciona em qualquer sessão, inclusive nuvem. Os caminhos abaixo ficam para o que só o NotebookLM faz (Studio: podcasts, mind maps).
+
 O NotebookLM não tem API. Há DOIS caminhos de ponte — escolha pelo ambiente da sessão:
 
 **Caminho A — automação via skill `notebooklm` (preferido quando disponível):**
