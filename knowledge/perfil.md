@@ -19,8 +19,13 @@
 
 - Total anual orçado: R$ 607.760 → **média R$ 33.150/mês**
 - Maiores blocos: financiamento imobiliário **R$ 15.490/mês** (R$ 185.910/ano — 47% do custo), escola Malu R$ 6.445/mês (R$ 77.401/ano), IPTU R$ 1.353/mês, supermercado R$ 2.230/mês, diarista ~R$ 1.100/mês
-- Cartões (fora do custo casa): Rafael ~R$ 6.000/mês + Marcela ~R$ 5.000/mês = **~R$ 11.000/mês**
-- Assinaturas ativas (planilha própria): **R$ 1.122,91/mês** (maior: Claude AI R$ 550)
+- Cartões (fora do custo casa): orçado Rafael R$ 6.000/mês + Marcela R$ 5.000/mês = ~R$ 11.000/mês
+- **Cartão Rafael REAL (faturas auditadas 23/07/2026): maio R$ 16.390 | julho R$ 14.899 (parcial) — ~2,5× o orçado.** Gap de ~R$ 9-10k/mês a reconciliar (parte pode ser gasto de casa pago no cartão; parte é vazamento não orçado)
+- Categorias da fatura (maio | julho): alimentação/bares ~2,8k | 3,5k; farmácia/saúde 2,4k | 1,7k; transporte 1,9k | 1,8k; assinaturas 2,9k | 1,3k; compras 2,2k | 1,9k
+- **43,9% da fatura de maio (R$ 7.190) é parcelamento herdado de meses anteriores** — inclusive dezenas de compras de R$ 10-90 parceladas em 12×
+- Apple.com/bill: 6 cobranças em maio somando R$ 784; Claude R$ 584,50
+- Fatura de maio teve "JUROS PAGAMENTO CONTAS" (R$ 74,65) — pagar boleto com cartão gera juros
+- Assinaturas na planilha própria: R$ 1.122,91/mês (subestimado vs fatura)
 
 ## Fechamento de julho/2026 (aba FINANÇAS NOVO)
 
